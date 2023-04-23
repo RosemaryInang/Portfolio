@@ -1,0 +1,27 @@
+
+// Mixin
+@mixin mobile-1{
+    @media (max-width: 383.9px){
+        @content;
+    }
+}
+@mixin mobile{
+    @media (max-width: 763.9px){
+        @content;
+    }
+}
+@mixin tablet02{
+    @media (max-width: 860.9px){
+        @content;
+    }
+}
+@mixin tablet{
+    @media (max-width: 990.9px){
+        @content;
+    }
+}
+@mixin landscape{
+    @media (max-width: 1014.55px){
+        @content;
+    }
+}

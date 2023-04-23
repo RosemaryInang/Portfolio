@@ -1,0 +1,353 @@
+// * {
+//     outline: 1px solid gold;
+// }
+.section-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../Media/resting-place.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+    div {
+        padding: 1rem;
+        @include screen11 {
+            padding: 0.8rem;
+        }
+        include screen12 {
+            padding: 1.2rem;
+        }
+        .paragraph-01 {
+            font-size: 66px;
+            text-align: center;
+            padding: 1rem 0;
+            color: getColor(color02);
+            @include screen8 {
+                font-size: 60px;
+            }
+            @include screen10 {
+                font-size: 54px;
+            }
+            @include screen11 {
+                font-size: 50px;
+            }
+        }
+        .mini-paragraph-01 {
+            font-size: 46px;
+            text-align: center;
+            color: getColor(color02);
+            @include screen8 {
+            font-size: 40px;
+        }
+        }
+        .paragraph-02 {
+            font-size: 36px;
+            color: getColor(color02);
+            margin: 1rem 0rem;
+            padding: 1rem;
+            text-align: center;
+            @include screen8 {
+            font-size: 30px;
+        }
+        }
+        // I added a wrapper for the anchor tag element and displayed flex
+        .center-btn-wrrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .center-btn {
+                background-color: getColor(color04);
+                border: 0.1rem solid getColor(color04);
+                border-radius: 0.2rem;
+                color: getColor(color02);
+                text-decoration: none;
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+.section-two {
+    .white-bg-text {
+        text-align: center;
+        margin: 1rem;
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+    .black-bg-wrap {
+        text-align: center;
+        background-color: getColor(color05);
+        padding: 1rem 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        @include screen5 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include screen7 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .black-bg-text {
+            color:getColor(color03);
+            margin: 1rem;
+        }
+    }
+
+}
+.section-three {
+    .card-heading {
+        text-align: center;
+        font-size: 2rem;
+        padding: 1.5rem;
+    }
+    .card-wrapper {
+        width: 100vw;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 3rem;
+        @include screen5 {
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        @include screen7 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .card {
+            max-width: 300px;
+            border: 1px solid getColor(color01);
+            border-radius: 4px;
+            height: fit-content;
+            padding: 0;
+            @include screen7 {
+                max-width: 600px;
+            }
+            img {
+                width: 100%;
+                object-fit: cover;
+                overflow: hidden;
+            }
+            div {
+                padding: 10px;
+                p {
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+                h3 {
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                }
+                a {
+                    text-decoration: none;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: getColor(color04);
+                    color: getColor(color02);
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+}
+.section-four {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../Media/resting-place.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border-top: 0.1rem solid grey;
+    min-height: 40vh;
+    padding-top: 50px;
+    
+    .img-span {
+        text-align: center;
+        font-size: 2rem;
+        color: getColor(color02);
+        padding: 1rem;
+    }
+    .img-text {
+        font-size: 20px;
+        color: getColor(color02);
+        text-align: center;
+    }
+}
+.img-text-02 {
+    padding: 30px 5px;
+    p{
+        font-size: 20px;
+        color: getColor(color01);
+        text-align: center;
+    }
+}
+.section-five {
+    background-color: getColor(color05);
+    color: getColor(color03);
+    height: fit-content;
+    padding: 3rem;
+    .image-wrap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        @include screen5 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include screen7 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        div {
+            width: 100%;
+            border: none;
+            img {
+                width: 100%;
+                object-fit: cover;
+                overflow: hidden;
+            }
+            div {
+                padding: 10px;
+                p {
+                    text-align: center;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+.section-six {
+    .special-offer-heading {
+        text-align: center;
+        margin: 1rem;
+        font-size: 2rem;
+        font-weight: none;
+    }
+    .card-wrap-02 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+        gap: 30px;
+        height: fit-content;
+        width: 100vw;
+        @include screen3 {
+            gap: 20px;
+        }
+        @include screen4 {
+            gap: 8px;
+            padding: 2.3rem;
+        }
+        @include screen5 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include screen6 {
+            gap: 8px;
+            padding: 1.5rem;
+        }
+        @include screen7 {
+            gap: 8px;
+            padding: 1.5rem;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
+            align-items: center;
+        }
+        .card-02 {
+            border-radius: 5px;
+            max-width: 300px;
+            height: fit-content;
+            overflow: hidden;
+            padding: 0;
+            @include screen7 {
+               max-width: 600px; 
+            }
+            img {
+                width: 100%;
+                object-fit: cover;
+                overflow: hidden;
+            }
+            border: 0.1rem solid grey;
+            margin: 1rem 0.5rem;
+            p {
+                text-align: center;
+                margin: 1rem;
+                @include screen3 {
+                    font-size: 1.2rem;
+                }
+            }
+            article {
+                text-align: center;
+                margin: 1.3rem;
+                padding: 1rem;
+            }
+        }
+    }
+}
+.section-seven {
+    background-color: getColor(color05);
+    color: getColor(color02);
+    padding: 2rem;
+    p {
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+    .text-card-wrap {
+        margin: 1rem 0.5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        @include screen5 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include screen7 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .text-card {
+            border-right: 0.1rem solid gray;
+            border-left: 0.1rem solid gray;
+            border-bottom: 0.1rem solid gray;
+            text-align: center;
+            padding: 5px;
+        }
+    }
+}
+.section-eight {
+    background: url(../Media/round-mirror.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(0.1rem);
+    border-top: 0.1rem solid getColor(color01);
+}
+footer {
+    background-color: getColor(color05);
+    color: getColor(color02);
+    padding: 1rem;
+    h4 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .flex-wrap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        @include screen5 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include screen7 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .footer {
+            padding: 1rem;
+            text-align: center;
+        }
+    }
+}

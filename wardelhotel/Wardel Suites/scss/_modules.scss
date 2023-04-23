@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+$colors:(
+    color01: #000000,
+    color02: #ffffff,
+    color03:#f5deb3,
+    color04: #36241F,
+    color05: #252222,
+    color06: #eca44c,
+);
+// function for getting color
+@function getColor($key) {
+    @return map-get($colors, $key);
+}
+// Media Query
+@mixin screen0{
+    @media (max-width: 1199.9px){
+        @content;
+    }
+}
+@mixin screen1{
+    @media (max-width: 1116.1px){
+        @content;
+    }
+}
+@mixin screen2{
+    @media (max-width: 1051.1px){
+        @content;
+    }
+}
+@mixin screen3{
+    @media (max-width: 912.1px){
+        @content;
+    }
+}
+@mixin screen4{
+    @media (max-width: 807.28px){
+        @content;
+    }
+}
+@mixin screen5{
+    @media (max-width: 780.1px){
+        @content;
+    }
+}
+@mixin screen6{
+    @media (max-width: 673.65px){
+        @content;
+    }
+}
+@mixin screen7{
+    @media (max-width: 646.37px){
+        @content;
+    }
+}
+@mixin screen8{
+    @media (max-width: 523.65px){
+        @content;
+    }
+}
+@mixin screen9{
+    @media (max-width: 490.1px){
+        @content;
+    }
+}
+@mixin screen10{
+    @media (max-width: 467.28px){
+        @content;
+    }
+}
+@mixin screen11{
+    @media (max-width: 430.92px){
+        @content;
+    }
+}
+@mixin screen12{
+    @media (max-width: 401.83px){
+        @content;
+    }
+}
+

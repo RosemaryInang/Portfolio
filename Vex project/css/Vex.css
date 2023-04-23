@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+  align-items: center; 
+}
+.img {
+    padding: 0 3rem;
+    margin-top: 4rem;
+}
+.text-color {
+    color:#43474c;
+}
+.text-color > h1 {
+    font-size: 3.5rem;
+}
+.buy-button {
+    border: 3px solid #0dcaf0;
+  border-radius: 5rem; 
+  margin: 1.5rem auto;
+  height: 3rem;
+  font-size: 1rem;
+  padding:0 16px;
+}
+.two {
+    text-align: center;
+    margin-top: 6rem;
+}
+.three {
+    margin-top: 3rem;
+    margin-right: 1rem;
+}
+.three  h3 {
+    font-size: 2.3rem;
+    margin-top: 8rem;
+}
+.bigger {
+    font-size: 2rem;
+    margin-top: 6rem;
+}
+.font-big {
+    font-size: 2.5rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+.five {
+    background-color: rgba(220, 220, 220, 0.568);
+}
+.six {
+   background-image: linear-gradient( rgba(245, 246, 252, 0.1), rgba(0, 0, 0,  0.7)), url(../media/girl-by-the-mirror.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    padding: 3rem 3rem;
+}
+.text-1 {
+    font-size: 2rem;
+}
+.text-2 {
+    font-size: 1rem;
+}
+.sides {
+    text-align:center ;
+}
+.mini-img {
+    border-radius: 100%;
+}
+.product-button {
+    border: 3px solid #0dcaf0;
+  border-radius: 5rem; 
+  background-color: #0dcaf0;
+  margin-bottom: 2rem;
+  height: 3rem;
+  font-size: 1rem;
+margin-left: 0 16px;
+margin-right: 0 16px;
+}
+footer {
+    text-align: center;
+    background-color: rgba(220, 220, 220, 0.247);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.copyright {
+    font-size: 0.7rem;
+}
