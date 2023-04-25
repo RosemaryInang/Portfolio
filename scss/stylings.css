@@ -262,7 +262,6 @@ header nav ul li:hover {
 }
 
 #hero h1 {
-  padding-top: 45px;
   font-size: 38px;
   font-style: italic;
   color: #fff;
@@ -290,10 +289,8 @@ header nav ul li:hover {
 }
 
 #hero h3 {
-  padding-top: 5px;
-  font-size: 40px;
+  font-size: 38px;
   color: #fff;
-  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -322,12 +319,13 @@ header nav ul li:hover {
 
 #hero div a {
   text-decoration: none;
-  font-size: 20px;
-  padding: 8px 22px;
+  font-size: 25px;
+  padding: 6px 22px;
   border: 1px solid transparent;
   border-radius: 15px;
   background-color: #000;
   color: #66fcf1;
+  font-family: 'Great Vibes', cursive;
 }
 
 @media (max-width: 860.9px) {
