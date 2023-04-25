@@ -1,80 +1,62 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 .section-one {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../Media/resting-place.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Media/resting-place.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[1];
-      grid-template-columns: repeat(1 1fr);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  grid-template-columns: repeat(1 1fr);
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
 }
-
 .section-one div {
   padding: 1rem;
 }
-
 @media (max-width: 430.92px) {
   .section-one div {
     padding: 0.8rem;
   }
 }
-
 .section-one div include screen12 {
   padding: 1.2rem;
 }
-
 .section-one div .paragraph-01 {
   font-size: 66px;
   text-align: center;
   padding: 1rem 0;
   color: #ffffff;
 }
-
 @media (max-width: 523.65px) {
   .section-one div .paragraph-01 {
     font-size: 60px;
   }
 }
-
 @media (max-width: 467.28px) {
   .section-one div .paragraph-01 {
     font-size: 54px;
   }
 }
-
 @media (max-width: 430.92px) {
   .section-one div .paragraph-01 {
     font-size: 50px;
   }
 }
-
 .section-one div .mini-paragraph-01 {
   font-size: 46px;
   text-align: center;
   color: #ffffff;
 }
-
 @media (max-width: 523.65px) {
   .section-one div .mini-paragraph-01 {
     font-size: 40px;
   }
 }
-
 .section-one div .paragraph-02 {
   font-size: 36px;
   color: #ffffff;
@@ -82,25 +64,16 @@
   padding: 1rem;
   text-align: center;
 }
-
 @media (max-width: 523.65px) {
   .section-one div .paragraph-02 {
     font-size: 30px;
   }
 }
-
 .section-one div .center-btn-wrrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .section-one div .center-btn-wrrapper .center-btn {
   background-color: #36241F;
   border: 0.1rem solid #36241F;
@@ -116,31 +89,23 @@
   font-size: 2rem;
   padding: 2rem 0;
 }
-
 .section-two .black-bg-wrap {
   text-align: center;
   background-color: #252222;
   padding: 1rem 0;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[1];
-      grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
-
 @media (max-width: 780.1px) {
   .section-two .black-bg-wrap {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-
 @media (max-width: 646.37px) {
   .section-two .black-bg-wrap {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
-
 .section-two .black-bg-wrap .black-bg-text {
   color: #f5deb3;
   margin: 1rem;
@@ -151,78 +116,58 @@
   font-size: 2rem;
   padding: 1.5rem;
 }
-
 .section-three .card-wrapper {
   width: 100vw;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   padding: 3rem;
 }
-
 @media (max-width: 780.1px) {
   .section-three .card-wrapper {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
 }
-
 @media (max-width: 646.37px) {
   .section-three .card-wrapper {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
-
 .section-three .card-wrapper .card {
   max-width: 300px;
   border: 1px solid #000000;
   border-radius: 4px;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding: 0;
 }
-
 @media (max-width: 646.37px) {
   .section-three .card-wrapper .card {
     max-width: 600px;
   }
 }
-
 .section-three .card-wrapper .card img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
 }
-
 .section-three .card-wrapper .card div {
   padding: 10px;
 }
-
 .section-three .card-wrapper .card div p {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
 .section-three .card-wrapper .card div h3 {
   font-size: 24px;
   margin-bottom: 10px;
 }
-
 .section-three .card-wrapper .card div a {
   text-decoration: none;
   border: none;
@@ -233,7 +178,6 @@
 }
 
 .section-four {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../Media/resting-place.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Media/resting-place.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -243,14 +187,12 @@
   min-height: 40vh;
   padding-top: 50px;
 }
-
 .section-four .img-span {
   text-align: center;
   font-size: 2rem;
   color: #ffffff;
   padding: 1rem;
 }
-
 .section-four .img-text {
   font-size: 20px;
   color: #ffffff;
@@ -260,7 +202,6 @@
 .img-text-02 {
   padding: 30px 5px;
 }
-
 .img-text-02 p {
   font-size: 20px;
   color: #000000;
@@ -270,56 +211,40 @@
 .section-five {
   background-color: #252222;
   color: #f5deb3;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding: 3rem;
 }
-
 .section-five .image-wrap {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
-
 @media (max-width: 780.1px) {
   .section-five .image-wrap {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-
 @media (max-width: 646.37px) {
   .section-five .image-wrap {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
-
 .section-five .image-wrap div {
   width: 100%;
   border: none;
 }
-
 .section-five .image-wrap div img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
 }
-
 .section-five .image-wrap div div {
   padding: 10px;
 }
-
 .section-five .image-wrap div div p {
   text-align: center;
   font-size: 18px;
@@ -331,72 +256,51 @@
   font-size: 2rem;
   font-weight: none;
 }
-
 .section-six .card-wrap-02 {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
   padding: 3rem;
   gap: 30px;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   width: 100vw;
 }
-
 @media (max-width: 912.1px) {
   .section-six .card-wrap-02 {
     gap: 20px;
   }
 }
-
 @media (max-width: 807.28px) {
   .section-six .card-wrap-02 {
     gap: 8px;
     padding: 2.3rem;
   }
 }
-
 @media (max-width: 780.1px) {
   .section-six .card-wrap-02 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-
 @media (max-width: 673.65px) {
   .section-six .card-wrap-02 {
     gap: 8px;
     padding: 1.5rem;
   }
 }
-
 @media (max-width: 646.37px) {
   .section-six .card-wrap-02 {
     gap: 8px;
     padding: 1.5rem;
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
   }
 }
-
 .section-six .card-wrap-02 .card-02 {
   border-radius: 5px;
   max-width: 300px;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   overflow: hidden;
@@ -404,31 +308,26 @@
   border: 0.1rem solid grey;
   margin: 1rem 0.5rem;
 }
-
 @media (max-width: 646.37px) {
   .section-six .card-wrap-02 .card-02 {
     max-width: 600px;
   }
 }
-
 .section-six .card-wrap-02 .card-02 img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
 }
-
 .section-six .card-wrap-02 .card-02 p {
   text-align: center;
   margin: 1rem;
 }
-
 @media (max-width: 912.1px) {
   .section-six .card-wrap-02 .card-02 p {
     font-size: 1.2rem;
   }
 }
-
 .section-six .card-wrap-02 .card-02 article {
   text-align: center;
   margin: 1.3rem;
@@ -440,42 +339,29 @@
   color: #ffffff;
   padding: 2rem;
 }
-
 .section-seven p {
   text-align: center;
   padding: 0.5rem;
   font-size: 2rem;
 }
-
 .section-seven .text-card-wrap {
   margin: 1rem 0.5rem;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
-
 @media (max-width: 780.1px) {
   .section-seven .text-card-wrap {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-
 @media (max-width: 646.37px) {
   .section-seven .text-card-wrap {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
-
 .section-seven .text-card-wrap .text-card {
   border-right: 0.1rem solid gray;
   border-left: 0.1rem solid gray;
@@ -490,8 +376,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  -webkit-filter: blur(0.1rem);
-          filter: blur(0.1rem);
+  filter: blur(0.1rem);
   border-top: 0.1rem solid #000000;
 }
 
@@ -500,39 +385,27 @@ footer {
   color: #ffffff;
   padding: 1rem;
 }
-
 footer h4 {
   font-size: 2rem;
   text-align: center;
   padding: 1rem 0;
 }
-
 footer .flex-wrap {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
 }
-
 @media (max-width: 780.1px) {
   footer .flex-wrap {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-
 @media (max-width: 646.37px) {
   footer .flex-wrap {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
-
 footer .flex-wrap .footer {
   padding: 1rem;
   text-align: center;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
