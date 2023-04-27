@@ -207,6 +207,7 @@ header nav ul li:hover {
   border-bottom: 1px solid transparent;
   -webkit-transition: all .7s ease;
   transition: all .7s ease;
+  font-family: 'Roboto', sans-serif;
 }
 
 #top ul li a:hover {
@@ -290,6 +291,7 @@ header nav ul li:hover {
 
 #hero h3 {
   font-size: 38px;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   text-align: center;
 }
@@ -411,7 +413,7 @@ header nav ul li:hover {
   color: #fff;
 }
 
-.about h2 {
+.about article h2 {
   text-align: center;
   padding-top: 20px;
   font-family: 'Roboto', sans-serif;
@@ -439,6 +441,7 @@ header nav ul li:hover {
 
 .skills4mobile div div div .skills-wrapper h4 {
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   text-align: center;
   padding-top: 10px;
 }
@@ -485,16 +488,25 @@ header nav ul li:hover {
   padding-bottom: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .skills4mobile div div div .skills-wrapper ul li {
   list-style-type: none;
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .skill4tablets {
   background-color: #034c4c;
   color: #fff;
+}
+
+.skill4tablets div div div article h4 {
+  text-align: center;
+  padding: 10px 0 20px  0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .skill4tablets div div div article ul {
@@ -503,7 +515,13 @@ header nav ul li:hover {
   margin-top: 120px;
   font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   padding-bottom: 30px;
+}
+
+.skill4tablets div div div article ul li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .skill4tablets div div div figure img {
@@ -527,7 +545,6 @@ header nav ul li:hover {
 #project {
   background-color: #70caca;
   padding: 20px 0;
-  font-family: 'Roboto', sans-serif;
 }
 
 #project h5 {
@@ -535,7 +552,8 @@ header nav ul li:hover {
   margin-bottom: 40px;
   text-align: center;
   color: #0d0101;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 @media (max-width: 860.9px) {
