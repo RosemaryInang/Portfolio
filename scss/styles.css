@@ -262,7 +262,6 @@ header nav ul li:hover {
 }
 
 #hero h1 {
-  padding-top: 45px;
   font-size: 38px;
   font-style: italic;
   color: #fff;
@@ -290,10 +289,8 @@ header nav ul li:hover {
 }
 
 #hero h3 {
-  padding-top: 5px;
-  font-size: 40px;
+  font-size: 38px;
   color: #fff;
-  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -322,12 +319,13 @@ header nav ul li:hover {
 
 #hero div a {
   text-decoration: none;
-  font-size: 20px;
-  padding: 8px 22px;
+  font-size: 25px;
+  padding: 6px 22px;
   border: 1px solid transparent;
   border-radius: 15px;
   background-color: #000;
   color: #66fcf1;
+  font-family: 'Great Vibes', cursive;
 }
 
 @media (max-width: 860.9px) {
@@ -441,6 +439,7 @@ header nav ul li:hover {
 .skills4mobile div div div .skills-wrapper h4 {
   text-align: center;
   padding-top: 10px;
+  font-family: 'Instrument Serif', serif;
 }
 
 .skills4mobile div div div .skills-wrapper figure {
@@ -455,8 +454,18 @@ header nav ul li:hover {
 
 .skills4mobile div div div .skills-wrapper figure img {
   max-width: 400px;
-  border: 3px solid gray;
   border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 15px 2px #000000;
+          box-shadow: 2px 2px 15px 2px #000000;
+  width: 100%;
+  aspect-ratio: 4/3;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}
+
+.skills4mobile div div div .skills-wrapper figure img:hover {
+  scale: 1.1;
 }
 
 @media (max-width: 383.9px) {
@@ -469,11 +478,6 @@ header nav ul li:hover {
   .skills4mobile div div div .skills-wrapper figure img {
     max-width: 100%;
   }
-}
-
-.skills4mobile div div div .skills-wrapper p {
-  margin: 20px 80px;
-  text-align: center;
 }
 
 .skills4mobile div div div .skills-wrapper ul {
@@ -504,6 +508,16 @@ header nav ul li:hover {
   max-width: 350px;
   border-radius: 10px;
   margin-top: 50px;
+  -webkit-box-shadow: 2px 2px 15px 2px #000000;
+          box-shadow: 2px 2px 15px 2px #000000;
+  aspect-ratio: 4/4;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}
+
+.skill4tablets div div div figure img:hover {
+  scale: 1.1;
 }
 
 #project {
@@ -619,7 +633,6 @@ footer {
 footer div .up {
   background-color: #000000;
   text-align: center;
-  padding-right: 10px;
 }
 
 footer div .up a {

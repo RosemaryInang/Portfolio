@@ -261,6 +261,7 @@ header {
             span {
                 text-align: center;
                 margin: 10px;
+                font-family: 'Roboto', sans-serif;
             }
         }
 
@@ -294,12 +295,12 @@ header {
     h2 {
         text-align: center;
         padding-top: 20px;
-        font-family: cursive;
+        font-family: 'Roboto', sans-serif;
     }
     article {
         p {
-            font-family:  cursive;
             font-size: 15px;
+            font-family: 'Roboto', sans-serif;
             padding: 20px;
             text-align: center;
             word-spacing: 6px;
@@ -320,6 +321,7 @@ header {
             div {
                 .skills-wrapper {
                     h4 {
+                        font-family: 'Roboto', sans-serif;
                         text-align: center;
                         padding-top: 10px;
                     }
@@ -356,8 +358,10 @@ header {
                      ul {
                         padding-bottom: 30px;
                             text-align: center;
+                            font-family: 'Roboto', sans-serif;
                             li {
                                 list-style-type: none;
+                                  font-family: 'Roboto', sans-serif;
                             }
                       }
                 }
@@ -379,6 +383,7 @@ header {
                         list-style-type:none;
                         margin-top: 120px;
                         font-size: 1.2rem;
+                        font-family: 'Roboto', sans-serif;
                         padding-bottom: 30px;
                     }
                 }
@@ -409,6 +414,7 @@ header {
  #project {
     background-color: #70caca;
     padding: 20px 0;
+     font-family: 'Roboto', sans-serif;
         h5 {
             margin-top: 10px;
             margin-bottom: 40px;
@@ -479,6 +485,7 @@ footer {
     background-color: rgb(196, 194, 194);
     width: 100%;
     text-align: center;
+     font-family: 'Roboto', sans-serif;
     div {
         .up {
             background-color: #000000;
