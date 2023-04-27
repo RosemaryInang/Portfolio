@@ -32,6 +32,7 @@ toggleBtn.addEventListener('click', e => {
     toggleBtn.classList.toggle('active');
 })
 
+
 //  Web Developer, Designer & Programmer
 var typed = new Typed('#type-name', {
     strings: ["I &#39; m Rose"],
