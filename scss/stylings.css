@@ -422,8 +422,7 @@ header nav ul li:hover {
 .about article p {
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
-  padding: 20px;
-  text-align: center;
+  text-align: justify;
   word-spacing: 6px;
 }
 
