@@ -45,7 +45,6 @@
 
 header {
   background-color: #131313;
-  color: white;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -65,7 +64,6 @@ header nav ul {
 }
 
 header nav ul li {
-  border-radius: 10px;
   list-style-type: none;
   margin: 5px;
   padding: 10px;
@@ -78,7 +76,7 @@ header nav ul li a {
   font-family: 'Great Vibes', cursive;
 }
 
-header nav ul li:hover {
+header nav ul li a:hover {
   border: 1px solid #66fcf1;
 }
 

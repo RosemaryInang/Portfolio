@@ -45,7 +45,6 @@
 
 header {
   background-color: #131313;
-  color: white;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -67,7 +66,6 @@ header nav ul {
 header nav ul li {
   border-radius: 10px;
   list-style-type: none;
-  margin: 5px;
   padding: 10px;
   font-size: 0.9rem;
 }
@@ -207,6 +205,7 @@ header nav ul li:hover {
   border-bottom: 1px solid transparent;
   -webkit-transition: all .7s ease;
   transition: all .7s ease;
+  font-family: 'Roboto', sans-serif;
 }
 
 #top ul li a:hover {
@@ -290,6 +289,7 @@ header nav ul li:hover {
 
 #hero h3 {
   font-size: 38px;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   text-align: center;
 }
@@ -348,7 +348,7 @@ header nav ul li:hover {
   bottom: 0;
   border-radius: 30px;
   margin-bottom: 10px;
-  z-index: 1;
+  z-index: 9999;
   -webkit-animation: fade-up 1s .8s;
           animation: fade-up 1s .8s;
 }
@@ -368,6 +368,7 @@ header nav ul li:hover {
 #hero #chat-wrap .chat-link span {
   text-align: center;
   margin: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 @-webkit-keyframes animatechat {
@@ -410,16 +411,15 @@ header nav ul li:hover {
   color: #fff;
 }
 
-.about h2 {
+.about article h2 {
   text-align: center;
   padding-top: 20px;
-  font-family: cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about article p {
-  font-family: cursive;
   font-size: 15px;
-  padding: 20px;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   word-spacing: 6px;
 }
@@ -437,9 +437,10 @@ header nav ul li:hover {
 }
 
 .skills4mobile div div div .skills-wrapper h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   text-align: center;
   padding-top: 10px;
-  font-family: 'Instrument Serif', serif;
 }
 
 .skills4mobile div div div .skills-wrapper figure {
@@ -483,10 +484,14 @@ header nav ul li:hover {
 .skills4mobile div div div .skills-wrapper ul {
   padding-bottom: 30px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .skills4mobile div div div .skills-wrapper ul li {
   list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .skill4tablets {
@@ -494,12 +499,26 @@ header nav ul li:hover {
   color: #fff;
 }
 
+.skill4tablets div div div article h4 {
+  text-align: center;
+  padding: 10px 0 20px  0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
 .skill4tablets div div div article ul {
   text-align: center;
   list-style-type: none;
   margin-top: 120px;
   font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   padding-bottom: 30px;
+}
+
+.skill4tablets div div div article ul li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .skill4tablets div div div figure img {
@@ -530,7 +549,8 @@ header nav ul li:hover {
   margin-bottom: 40px;
   text-align: center;
   color: #0d0101;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 @media (max-width: 860.9px) {
@@ -628,6 +648,8 @@ footer {
   background-color: #c4c2c2;
   width: 100%;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 footer div .up {
